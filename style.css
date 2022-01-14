@@ -1,0 +1,82 @@
+/**
+ * CPI Inflation Calculator CSS File
+ * author(Joshua Thomas)
+ * date(14.01.2022)
+ * version:1.0
+ */
+
+body{
+    background: linear-gradient(to left, #ece9e6, #ffffff);
+}
+
+.output, .output-info{
+    text-align:center;
+    font-size:20px;
+}
+
+.output-info{
+    margin:-20px 80px;
+}
+
+.output{
+    margin:20px;
+    font-size:40px;
+    color:#1d976c;
+}
+
+h2{
+    text-align:center;
+    font-family: Tahoma, sans-serif;
+    font-size:30px;
+}
+
+.btn{
+    margin:20px 590px;
+    font-size:14px;
+    border-radius:2px;
+    box-shadow:2px 2px 4px black;
+    background-color:#1d976c;
+    color:white;
+    opacity:75%;
+}
+
+.btn:hover{
+    opacity:100%;
+    cursor:pointer;
+}
+
+.value-input{
+    width:200px;
+    border-radius:3px;
+    font-size:20px;
+    margin:50px 80px;
+    outline:none;
+}
+
+.value-input-2{
+    width:200px;
+    border-radius:3px;
+    font-size:20px;
+    margin:0px 5px;
+    outline:none;
+}
+
+.item-input{
+    width:200px;
+    border-radius:2px;
+    font-size:20px;
+    margin:50px 5px;
+    outline:none;
+}
+
+.select-options{
+    width:200px;
+    border-radius:10px;
+    font-size:20px;
+    margin:20px 175px;
+    outline:none;
+}
+
+hr{
+    width:50%;
+}

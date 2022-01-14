@@ -1,0 +1,45 @@
+<!---
+    CPI Inflation Calculator HTML File
+    author(Joshua Thomas)
+    date(14.01.2022)
+    version:1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CPI Inflation Calculator</title>
+</head>
+<body>
+    <h2>How much has your goods and services been impacted by inflation</h2>
+    <select class="select-options" id="select_options">
+        <option value="Previous Year">Previous Year</option>
+        <option value="1989">1989</option>
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+    </select>
+    
+    <input class="item-input" id="itemName" placeholder="Enter Item" autocomplete="off" required="">
+    <input class="value-input" id="prev_value" placeholder="Previous value" autocomplete="off" required="">
+
+    <select class="select-options" id="select_options2">
+        <option value="Current Year">Current Year</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+    </select>
+    
+    <input class="value-input-2" placeholder="current Value" id="current_value" autocomplete="off" required=""><br>
+    <button class="btn" id="btn">Show Amount</button>
+    <hr>
+    
+    <p id="output" class="output"></p>
+    <p id="output_info" class="output-info"></p>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
